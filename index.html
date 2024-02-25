@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tu Salud</title>
+    <style>
+        body {
+           height: 100vh; /* Toma todo el alto de la pantalla */
+            margin: 0px;
+            font-family: Arial, sans-serif;
+            background: #00223d;
+        }
+        .header2::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, transparent, rgba(208, 209, 209, 0.5), transparent);
+            animation: wave 5s infinite alternate; /* Cambiamos a 'alternate' para que la onda se mueva en ambas direcciones */
+        }
+        @keyframes wave {
+        0% {
+            transform: translateY(-100px);
+        }
+        50% {
+            transform: translateY(0px); /* Ajusta la altura máxima de la onda */
+        }
+        100% {
+            transform: translateY(-50px); /* Ajusta la altura de la onda según tus preferencias */
+        }
+        }
+        .logo {
+            width: 200px;
+        }
+        .module {
+            margin: 20px 0;
+        }
+        .header{
+            height: 500px;
+            overflow: hidden;
+            background-image: url(img/f11.jpg);
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-size: cover;
+            background-position: top;
+            display: ruby-text;
+           
+        }
+        .img{
+            width: 340px;
+    position: absolute;
+    padding: 2% 3%;
+        }
+        .centrado {
+            width: 200px;
+            height: 200px;           
+            /* Puedes agregar más estilos según tus necesidades */
+        }
+        footer {
+            background-color: #141516;
+    padding: 20px;
+    text-align: center;
+    color: cornsilk;
+        }
+        .contenido{
+            background: white;
+    border-radius: 10px;
+    padding: 3%;
+    margin: 2%;
+        }
+        p{    font-size: 20px;
+    font-family: sans-serif;}
+    h4{font-size: 25px;
+    font-family: sans-serif;
+    color: #00223d;}
+    .sp{
+        padding: 10px;
+    
+    border-radius: 10px;
+    margin: 1%;
+    }
+    .sp-o{
+        padding: 10px;
+        background: #fff;
+    border-radius: 10px;
+    margin: 1%;
+    width: fit-content;
+    box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.15);
+    }
+    .h{
+        font-size: xxx-large;
+    font-family: sans-serif;
+    margin-left: 10px;
+    color: #ffffff;
+    }
+    .d{
+        background-image: url(img/d1.jpg);
+        background-size: cover;
+    height: 250px;
+    background-position: center;
+
+    }
+    .r{
+        background-image: url(img/r1.jpg);
+        background-size: cover;
+    height: 250px;
+    background-position: center;
+
+    }
+    .e{
+        background-image: url(img/e1.jpg);
+        background-size: cover;
+    height: 250px;
+    background-position: center;
+
+    }
+    .m{
+        background-image: url(img/m1.webp);
+        background-size: cover;
+    height: 100%;
+    background-position: center;
+
+    }
+    .t{
+        background-image: url(img/t1.webp);
+        background-size: cover;
+    height: 100%;
+    background-position: center;
+
+    }
+    .sp-k{
+        display: flex;
+        padding: 10px;
+        background: #fff;
+    border-radius: 10px;
+    margin: 1%;
+    width: fit-content;
+    box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.15);
+    }
+    .icono{
+        width: 35px;
+        height: 35px;
+    }
+  .ico{
+    display: flex;
+  }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img src="img/logo.png" alt="Logo"  class="img">
+        </div>
+        
+    </header>
+    <main>
+        <div class="ico">
+            <div class="sp-k"> <img src="img/telefono.jpg" class="icono"><span style="margin-top: 8px; ">(212) 819-01-00</span> </div>
+            <div class="sp-k"> <img src="img/email.jpg" class="icono"><span style="margin-top: 8px; ">centroadelcoy@gmail.com</span> </div>
+            <div class="sp-k"> <img src="img/compartir.png" class="icono"><span style="margin-top: 8px; ">@centroadelcoy</span> </div>
+          
+            <div class="sp-k"> <img src="img/face.png" class="icono"> </div>
+            <div class="sp-k"> <img src="img/you.png" class="icono"> </div>
+            <div class="sp-k"> <img src="img/insta.png" class="icono"> </div>
+        </div>
+        
+       <div class="contenido">
+        <h4>MISIÓN</h4>
+        <p>Brindar servicios de calidad, utilizando recursos innovadores y con tecnología de avanzada, a través de personal con ética, humano y especializado, que permitan a nuestros pacientes la satisfacción de diagnósticos confiables, oportunos y de calidad.
+        </p>
+       </div>
+       <div class="contenido">
+        <h4>VISIÓN</h4>
+        <p>Ser una empresa destacada en imagenología en Venezuela, impulsada por su talento humano y tecnología que nos permita transformar el acceso a la salud y afianzar el compromiso social, para ser lideres en el sector.
+        </p>
+       </div>
+       <div class="contenido">
+       
+         <h4>VALORES</h4> 
+         <p>
+            <span  class="sp"><b>Excelencia:</b>  Compromiso con la calidad y la mejora continua en la prestación de servicios de imagenología.</span><br><br>
+            <span  class="sp"><b>Innovación:</b> Búsqueda constante de nuevas tecnologías y soluciones para ofrecer un servicio de vanguardia.</span> .<br><br>
+            <span  class="sp"><b>Eficiencia:</b> Optimización de recursos para ofrecer un servicio accesible y de alta calidad. </span><br><br>
+            <span  class="sp"><b>Ética Profesional:</b> Actuación con integridad, transparencia y respeto por los pacientes y el personal médico.</span><br><br>
+            <span  class="sp"><b>Responsabilidad social:</b> Compromiso con el bienestar de la comunidad y la accesibilidad a los servicios de salud. </span><br>
+
+        </p>
+       
+       </div>
+       <div class="contenido">
+        <h4>ESPECIALIDADES</h4>
+        
+            <div  class="sp d">
+                <b><span class="h">Desintrometria</span></b>
+                <div  class="sp-o">Estudio general</div> 
+            </div>
+            <div  class="sp r">
+                <b><span class="h">Rayos X</span></b>
+                <div  class="sp-o">Rayos X Nivel 1</div> 
+                <div  class="sp-o">Rayos X Nivel 2</div> 
+            </div>
+            <div  class="sp e">
+                <b><span class="h">Ecosonograma</span></b>
+                <div  class="sp-o">Ecosonograma Nivel 1</div> 
+                <div  class="sp-o">Ecosonograma Nivel 2</div> 
+                <div  class="sp-o">Ecosonograma Nivel 3</div> 
+            </div>
+            <div  class="sp m">
+                <b><span class="h">Mamografía</span></b>
+                <div  class="sp-o">Mamografía Nivel 1</div> 
+                <div  class="sp-o">Mamografía Nivel 2</div> 
+                <div  class="sp-o">Mamografía Nivel 3</div> 
+                <div  class="sp-o">Mamografía Nivel 4</div> 
+                <div  class="sp-o">Mamografía Nivel 5</div> 
+                <div  class="sp-o">Mamografía Nivel 6</div> 
+                <div  class="sp-o">Mamografía Nivel 7</div> 
+            </div>
+            <div  class="sp t">
+                <b><span class="h">Tomografía</span></b>
+                <div  class="sp-o">Tomografía Nivel 1</div> 
+                <div  class="sp-o">Tomografía Nivel 2</div> 
+                <div  class="sp-o">Tomografía Nivel 3</div> 
+                <div  class="sp-o">Tomografía Nivel 4</div> 
+                <div  class="sp-o">Tomografía Nivel 5</div> 
+                <div  class="sp-o">Tomografía Nivel 6</div> 
+            </div>
+
+       </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Centro de Diagnóstico Por Imagen Linda Vista. <b>Todos los Derechos Reservados foskert@gmail.com.</b> Politicas de privacidad</p>
+    </footer>
+</body>
+</html>
